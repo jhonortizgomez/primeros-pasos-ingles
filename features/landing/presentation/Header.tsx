@@ -3,11 +3,7 @@ import { MobileMenu } from "./MobileMenu";
 
 const links = [
   ["Choose Class", "#choose-class"],
-  ["AI Assistant", "#why-eskolica"],
-  ["Blog", "#why-eskolica"],
-  ["Prize List", "#why-eskolica"],
-  ["Instruction", "#about"],
-  ["Join Team", "#why-eskolica"],
+  ["Lesson Plans", "/lesson-plans"],
 ];
 
 export function Header() {
@@ -19,7 +15,6 @@ export function Header() {
       <nav className="desktop-navigation" aria-label="Main navigation">
         {links.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}
       </nav>
-      <Link className="login-button" href="#login">Login</Link>
       <MobileMenu />
     </header>
   );

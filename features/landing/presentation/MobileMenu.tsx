@@ -5,11 +5,7 @@ import Link from "next/link";
 
 const links = [
   ["Choose Class", "#choose-class"],
-  ["AI Assistant", "#why-eskolica"],
-  ["Blog", "#why-eskolica"],
-  ["Prize List", "#why-eskolica"],
-  ["Instruction", "#about"],
-  ["Join Team", "#why-eskolica"],
+  ["Lesson Plans", "/lesson-plans"],
 ];
 
 export function MobileMenu() {
@@ -34,7 +30,6 @@ export function MobileMenu() {
             {links.map(([label, href]) => (
               <Link key={label} href={href} onClick={() => setIsOpen(false)}>{label}</Link>
             ))}
-            <Link className="mobile-login" href="#login" onClick={() => setIsOpen(false)}>Login</Link>
           </nav>
         </div>
       )}

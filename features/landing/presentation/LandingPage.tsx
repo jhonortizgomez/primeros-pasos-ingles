@@ -15,8 +15,6 @@ export function LandingPage({ grades, benefits }: LandingPageProps) {
       <main>
         <HeroSection />
         <EducationOverviewSection />
-        <ClassSelectionSection grades={grades} />
-        <WhyEscolicaSection benefits={benefits} />
       </main>
       <footer className="site-footer">eŠKOLICA <span>Learning that feels like progress.</span></footer>
     </div>

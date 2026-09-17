@@ -19,8 +19,10 @@ export function HeroSection() {
           Explore subjects, track your progress, and get help when you need it.
           Ready to shine? Let&apos;s go!
         </p>
-        <Link className="primary-button" href="#choose-class">
-          Get Started Free <span aria-hidden="true">→</span>
+        <Link className="primary-button" href="/lesson-plans">
+          <p className="primary-button-text text-3xl">
+            Go to study <span aria-hidden="true">→</span>
+          </p>
         </Link>
       </div>
       <HeroIllustration />
