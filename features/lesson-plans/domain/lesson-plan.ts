@@ -10,6 +10,11 @@ export type LessonQuestion = {
   answer: string;
 };
 
+export type LessonPodcast = {
+  title: string;
+  audioUrl: string;
+};
+
 export type LessonPlan = {
   id: string;
   title: string;
@@ -26,6 +31,7 @@ export type LessonPlan = {
   resources: LessonResource[];
   questions: LessonQuestion[];
   reflection: string;
+  podcast: LessonPodcast;
 };
 
 export interface LessonPlanRepository {

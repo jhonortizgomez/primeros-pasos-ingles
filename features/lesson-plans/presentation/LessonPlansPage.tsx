@@ -119,9 +119,18 @@ export function LessonPlansPage({ lessonPlans }: LessonPlansPageProps) {
               </section>
             </div>
 
+            <section className="lesson-podcast" aria-labelledby="podcast-title">
+              <p className="lesson-block-label">04 / Listen and practice</p>
+              <h4 id="podcast-title">{activePlan.podcast.title}</h4>
+              <p>Listen to this short episode to practice your listening skills for this topic.</p>
+              <audio className="lesson-podcast-player" controls preload="none" src={activePlan.podcast.audioUrl}>
+                Your browser does not support the audio element.
+              </audio>
+            </section>
+
             <section className="lesson-quiz" aria-labelledby="quiz-title">
               <div className="quiz-heading">
-                <p className="lesson-block-label">04 / Check your learning</p>
+                <p className="lesson-block-label">05 / Check your learning</p>
                 <h4 id="quiz-title">Mini practice</h4>
                 <p>Choose one answer for each question, just like a school exam.</p>
               </div>
@@ -157,7 +166,7 @@ export function LessonPlansPage({ lessonPlans }: LessonPlansPageProps) {
 
             <section className="lesson-reflection">
               <span className="reflection-mark" aria-hidden="true">?</span>
-              <div><p className="lesson-block-label">05 / Think about it</p><h4>My reflection</h4><p>{activePlan.reflection}</p></div>
+              <div><p className="lesson-block-label">06 / Think about it</p><h4>My reflection</h4><p>{activePlan.reflection}</p></div>
             </section>
           </article>
         </section>

@@ -29,6 +29,7 @@ const lessonPlans: LessonPlan[] = [
       { prompt: "We ___ students.", options: ["am", "is", "are", "has"], answer: "are" },
     ],
     reflection: "When can you use am, is or are to tell someone something about yourself or a friend? Write three sentences and read them aloud.",
+    podcast: { title: "Verb to be podcast", audioUrl: "/podcasts/verb-to-be.mp3" },
   },
   {
     id: "clothes",
@@ -58,6 +59,7 @@ const lessonPlans: LessonPlan[] = [
       { prompt: "What do you wear on your feet?", options: ["A jacket", "A scarf", "Shoes", "A shirt"], answer: "Shoes" },
     ],
     reflection: "Look at your clothes today. Which three words in English can you use to describe them? Draw your outfit and label it.",
+    podcast: { title: "Clothes podcast", audioUrl: "/podcasts/clothes.mp3" },
   },
   {
     id: "daily-routine",
@@ -87,6 +89,7 @@ const lessonPlans: LessonPlan[] = [
       { prompt: "Which activity usually happens before going to bed?", options: ["Wake up", "Have dinner", "Go to school", "Have breakfast"], answer: "Have dinner" },
     ],
     reflection: "Think about one part of your routine that helps you learn. Why is it important? Describe your day using five English sentences.",
+    podcast: { title: "Daily routine podcast", audioUrl: "/podcasts/daily-routine.mp3" },
   },
 ];
 
