@@ -67,7 +67,7 @@ const lessonPlans: LessonPlan[] = [
     color: "cyan",
     icon: "03",
     emoji: "⏰",
-    image: "https://images.unsplash.com/photo-1544776193-352d25ca2f34?auto=format&fit=crop&w=900&q=85",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUNGDi7eoVzIDWY1jnNNEAniZPM9IDfJyk4MEgbu7JRAMcqRTixfX1IKGV&s=10",
     imageAlt: "Child starting a morning routine",
     explanation: "A daily routine is the order of things we do every day, from waking up in the morning to going to bed at night. We use it to talk about habits.",
     examples: ["I wake up at seven. ⏰", "I brush my teeth. 🪥", "I go to school. 🎒"],

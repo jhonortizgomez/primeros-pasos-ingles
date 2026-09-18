@@ -5,6 +5,7 @@ import { Header } from "./Header";
 import { HeroSection } from "./HeroSection";
 import { EducationOverviewSection } from "./EducationOverviewSection";
 import { WhyEscolicaSection } from "./WhyEscolicaSection";
+import { WelcomeMascot } from "./WelcomeMascot";
 
 type LandingPageProps = { grades: Grade[]; benefits: Benefit[] };
 
@@ -17,6 +18,7 @@ export function LandingPage({ grades, benefits }: LandingPageProps) {
         <EducationOverviewSection />
       </main>
       <footer className="site-footer">eŠKOLICA <span>Learning that feels like progress.</span></footer>
+      <WelcomeMascot message="Hi, I'm Sara! Fundes Discovery helps primary school kids learn English through fun interactive lessons. ✨" />
     </div>
   );
 }
